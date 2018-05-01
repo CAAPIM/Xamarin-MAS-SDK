@@ -5,10 +5,9 @@ CA Mobile API Gateway (MAG) provides enterprises with a secure mobile backend th
 
 The Android Mobile SDK consists of these frameworks:
 
-- MASFoundation - Core services to handle user authentication, device and app registration, requests and local storage of certificates, keys, and token credentials for accessing protected APIs.
+**MASFoundation** - Core services to handle user authentication, device and app registration, requests and local storage of certificates, keys, and token credentials for accessing protected APIs.
 
 ## Features
-
 * **Secure API Calls** - *Protect APIs with Mutual TLS and control API access on application, user and device level.*
 * **Authentication** - *Implement authentication with username/password, Facebook, Google, Twitter sign-in.*
 * **Single Sign-On** -*Share user credentials between your apps.*
