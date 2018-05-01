@@ -1,7 +1,7 @@
 # Xamarin-MAS-SDK
 ## for CA Mobile API Gateway
 
-CA Mobile API Gateway (MAG) provides enterprises with a secure mobile backend that integrates systems and allows control over which users, devices, and applications can access your APIs. The MAG enables developers to leverage standards for API security such as (OAuth2, OpenID Connect, PKI) through client SDKs for Xamarin.
+CA Mobile API Gateway (MAG) provides enterprises with a secure mobile backend that integrates systems and allows control over which users, devices, and applications can access your APIs. The MAG enables developers to leverage standards for API security such as (OAuth2, OpenID Connect, PKI) through client SDKs for Xamarin®.
 
 The Android Mobile SDK consists of these frameworks:
 
