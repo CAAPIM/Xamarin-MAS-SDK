@@ -13,7 +13,6 @@ The MAS SDK includes the following frameworks:
 
 - [MASFoundation][MASFoundation]
 
-
 ## SDK Releases
 
 The compiled release binaries can be found here: [Releases][Releases]
@@ -35,7 +34,7 @@ of the MIT license. See the [LICENSE][license-link] file for details.
  [docs]: http://mas.ca.com/docs/
  [blog]: http://mas.ca.com/blog/
 
- [MASFoundation]: https://github.com/CAAPIM/Xamarin-MAS-Foundation/pull/80
+ [MASFoundation]: https://github.com/CAAPIM/Xamarin-MAS-Foundation
  [Releases]: https://github.com/CAAPIM/Releases
  [contributing]: /CONTRIBUTING.md
  [license-link]: /LICENSE
