@@ -7,28 +7,22 @@ The Mobile SDK for Xamarin gives developers simple and secure access to the serv
 Check out our [documentation](https://www.ca.com/us/developers/mas/docs.html) for sample code and video tutorials.
 
 ## Mobile SDK for Xamarin Frameworks
-
 The MAS SDK includes the following frameworks:
 
 - [MASFoundation][MASFoundation]
-- [Download MASFoundation][download] 
 
 ## SDK Releases
-
 The compiled release binaries can be found here: [Releases][Releases]
 
 ## Communication
-
 - *Have general questions or need help?*, use [Stack Overflow][StackOverflow]. (Tag 'massdk')
 - *Find a bug?*, open an issue with the steps to reproduce it.
 - *Request a feature or have an idea?*, open an issue.
 
 ## How You Can Contribute
-
 Contributions are welcome and much appreciated. To learn more, see the [Contribution Guidelines][contributing].
 
 ## License
-
 Copyright (c) 2018 CA. All rights reserved.
 
 This software may be modified and distributed under the terms
