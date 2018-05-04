@@ -16,8 +16,8 @@ The compiled release binaries can be found here: [Releases][Releases]
 
 ## Communication
 - *Have general questions or need help?*, use [Stack Overflow][StackOverflow]. (Tag 'massdk')
-- *Find a bug?*, open an issue with the steps to reproduce it.
-- *Request a feature or have an idea?*, open an issue.
+- *Find a bug?*, open an [issue][issues] with the steps to reproduce it.
+- *Request a feature or have an idea?*, open an [issue][issues].
 
 ## How You Can Contribute
 Contributions are welcome and much appreciated. To learn more, see the [Contribution Guidelines][contributing].
@@ -33,6 +33,7 @@ of the MIT license. See the [LICENSE][license-link] file for details.
  [get-started]: http://mas.ca.com/get-started
  [docs]: http://mas.ca.com/docs/
  [blog]: http://mas.ca.com/blog/
+ [issues]: https://github.com/CAAPIM/Xamarin-MAS-SDK/issues
  [StackOverflow]: http://stackoverflow.com/questions/tagged/massdk
  [MASFoundation]: https://github.com/CAAPIM/Xamarin-MAS-Foundation
  [Releases]: https://github.com/CAAPIM/Releases
