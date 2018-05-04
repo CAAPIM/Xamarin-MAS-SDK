@@ -1,7 +1,6 @@
-# Mobile SDK for Xamarin
+# Mobile SDK for Xamarin®
 ## for CA Mobile API Gateway
 
-## Overview
 The Mobile SDK for Xamarin gives developers simple and secure access to the services of CA Mobile API Gateway. For more information about our mobile SDKs see [developer website][mas.ca.com].
 
 ## Get Started
@@ -12,10 +11,17 @@ Check out our [documentation](https://www.ca.com/us/developers/mas/docs.html) fo
 The MAS SDK includes the following frameworks:
 
 - [MASFoundation][MASFoundation]
+- [Download MASFoundation][download] 
 
 ## SDK Releases
 
 The compiled release binaries can be found here: [Releases][Releases]
+
+## Communication
+
+- *Have general questions or need help?*, use [Stack Overflow][StackOverflow]. (Tag 'massdk')
+- *Find a bug?*, open an issue with the steps to reproduce it.
+- *Request a feature or have an idea?*, open an issue.
 
 ## How You Can Contribute
 
