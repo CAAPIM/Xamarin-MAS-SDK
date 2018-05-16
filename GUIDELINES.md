@@ -1,6 +1,6 @@
 # CA Technologies C# Style Guide
 
-This document describes the C# coding style of the Xamarin Mobile SDK team. This guideline is recommended to comply with all C# implementations of our products.
+This document describes the C# coding style of Mobile SDK for Xamarin team. This guideline is recommended to comply with all C# implementations of our products.
 
 ## Review Microsoft Official Coding Guideline
 
@@ -10,7 +10,7 @@ Beyond the guidelines defined in this document, we also recommend reviewing the 
 
 For more information, see [developer website](http://mas.ca.com).
 
-The Xamarin Mobile SDK consists of multiple functional products separated into individual frameworks.
+The Mobile SDK for Xamarin consists of multiple functional products separated into individual frameworks.
 
 All of frameworks are recommended to comply with the coding guideline.
 
@@ -44,7 +44,7 @@ All of frameworks are recommended to comply with the coding guideline.
 
 All code **should be properly documented** in `.cs` files. Code documentation should adhere to Microsoft Doc's format.
 
-Microsoft provides a documentation generation system based on XML comments. These comments are formally single line C♯ comments (indicated by triple slashes) containing XML tags. All comments must be directly before the code block to which the comments refer, for example:
+Microsoft provides a documentation generation system based on XML comments. These comments are formally single line C♯ comments (indicated by triple slashes) containing XML tags. All comments must be placed directly before the code block to which the comments refer, for example:
 
 ```c#
 /// <summary>  
@@ -54,9 +54,9 @@ public class CustomClass{}
 ```
 A list of recommended tags for documentation comments can be found in [Microsoft C# Programming Guide](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/xmldoc/recommended-tags-for-documentation-comments).
 
-Visual Studio produces compiler-generated XML documents by taking the XML comments from the code and building them into an XML file. This XML file can then be used to generate human-readable documentation in a variety of forms including HTML, MSDN style documentation and Intellisense within the code window.
+Visual Studio produces compiler-generated XML documents by taking the XML comments from the code and building them into an XML file. This XML file can then be used to generate human-readable documentation in a variety of forms including HTML, MSDN style documentation and IntelliSense within the code window.
 
-Our team uses [Monodoc](http://http://www.mono-project.com/docs/tools+libraries/tools/monodoc/) as a tool to build HTML and Intellisense documentation based on the compiler-generated XML files.
+Our team uses [Monodoc](http://http://www.mono-project.com/docs/tools+libraries/tools/monodoc/) as a tool to build HTML and IntelliSense documentation based on the compiler-generated XML files.
 
 Recommended elements to document:
 
@@ -69,7 +69,7 @@ Recommended elements to document:
 
 ## Brace Style
 
-All braces get their own line as it is a C# convention:
+All braces get their own line (a C# convention):
 
 **For example:**
 
@@ -121,7 +121,7 @@ class CustomClass {
 
 ## New Line
 
-Blank lines improve readability. They set off blocks of code which are in themselves logically related.
+Blank lines improve readability. They set off blocks of code which are logically related.
 
 Two lines should always be used between:
 
@@ -135,7 +135,7 @@ One line should always be used between:
 *  Local variables in a method and its first statement
 *  Logical sections inside a method to improve readability
 
-Note that blank lines must be indented as they would contain a statement this makes insertion in these lines much easier.
+Indent blank lines to make it easier to insert a statement.
 
 ## Wrapping Lines
 
@@ -148,7 +148,7 @@ When an expression will not fit on a single line, break it up according to these
 
 ### Long Argument Lists
 
-When your argument list grows too long, split your method invocation across multiple lines, with the first argument on a new line after the opening parenthesis of the method invocation, the closing parenthesis of the invocation on its own line at the same indentation level as the line with the opening parenthesis.
+When your argument list grows too long, split your method invocation across multiple lines. With the first argument on a new line after the opening parenthesis of the method invocation, and the closing parenthesis of the invocation on its own line at the same indentation level as the line with the opening parenthesis.
 
 **For example:**
 
@@ -267,7 +267,7 @@ There should be exactly one blank line between methods to aid in visual clarity 
 
 ### Blocks
 
-Indentation for blocks uses 4 spaces for optimal readability. 
+Indent blocks with 4 spaces for optimal readability.
 
 **For example:**
 
@@ -467,8 +467,8 @@ Follow the Microsoft [standard format](https://docs.microsoft.com/en-us/dotnet/c
 ## *using* directive
 
 * `using` directives may or may not be in alphabetical order
-* Always roup using directives by common prefix, with shorter namespaces coming before longer ones
-* Preffered, namespaces should be ordered in increasing order of platform specificity, with .NET namespaces first, followed by library or component namespaces, then Xamarin namespaces, finally application namespaces
+* Always group using directives by common prefix, with shorter namespaces coming before longer ones
+* Prefered, namespaces should be ordered in increasing order of platform specificity, with .NET namespaces first, followed by library or component namespaces, then Xamarin namespaces, finally application namespaces
 
 **For example:**
 
@@ -505,7 +505,7 @@ For naming, you should follow [Microsoft Naming Guidelines](http://docs.microsof
 
 ### Special cases
 
-Despite adopting Microsoft naming conventions as general code development guideline, there some special cases that you are required to some rules in order to be more consistent on the framework’s usability.
+Beyond the Microsoft naming conventions for general code development, there are special rules you should follow to ensure consistency and usability of the framework.
 
 #### Class
 
@@ -560,7 +560,7 @@ Comments begin with `//` followed by a single space, use sentence casing, and ex
 //Don't do in-line comment like this
 ```
 
-#### Multiline comments
+#### Multi-line comments
 
 Long comments tend to grow from smaller ones, so it's simpler to always use `//` than to switch to `/* ... */` when a comment becomes "long".
 
@@ -569,7 +569,7 @@ Long comments tend to grow from smaller ones, so it's simpler to always use `//`
 ```c#
 //
 // Programming style is a set of rules or guidelines used when writing the source code for a 
-// computer program.It is often claimed that following a particular programming style will
+// computer program. It is often claimed that following a particular programming style will
 // help programmers read and understand source code conforming to the style, and help to
 // avoid introducing errors.
 //
@@ -584,7 +584,7 @@ Long comments tend to grow from smaller ones, so it's simpler to always use `//`
 ```c#
 /*
  * Programming style is a set of rules or guidelines used when writing the source code for a 
- * computer program.It is often claimed that following a particular programming style will
+ * computer program. It is often claimed that following a particular programming style will
  * help programmers read and understand source code conforming to the style, and help to
  * avoid introducing errors.
  *
