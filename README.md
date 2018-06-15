@@ -14,6 +14,10 @@ The MAS SDK includes the following frameworks:
 ## SDK Releases
 The compiled release binaries can be found here: [Releases][Releases]
 
+## Sample Apps
+**The Sample Apps are located in the source repos. Links will take to latest released versions**
+ - [Sample Apps for Xamarin MASFoundation](https://github.com/CAAPIM/Xamarin-MAS-Foundation/tree/master/sample)
+
 ## Communication
 - *Have general questions or need help?*, use [Stack Overflow][StackOverflow]. (Tag 'massdk')
 - *Find a bug?*, open an [issue][issues] with the steps to reproduce it.
