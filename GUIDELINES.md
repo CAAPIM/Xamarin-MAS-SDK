@@ -1,6 +1,6 @@
-# CA Technologies C# Style Guide
+# Broadcom Technologies C# Style Guide
 
-This document describes the C# coding style of Mobile SDK for Xamarin team. This guideline is recommended to comply with all C# implementations of our products.
+This document describes the C# coding style of Layer7 Mobile SDK for Xamarin team. This guideline is recommended to comply with all C# implementations of our products.
 
 ## Review Microsoft Official Coding Guideline
 
