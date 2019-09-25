@@ -1,5 +1,5 @@
 # Mobile SDK for Xamarin®
-## for CA Mobile API Gateway
+## for Layer7 Mobile API Gateway
 
 The Mobile SDK for Xamarin gives developers simple and secure access to the services of CA Mobile API Gateway. For more information about our mobile SDKs see [developer website][mas.ca.com].
 
