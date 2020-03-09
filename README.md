@@ -1,10 +1,10 @@
 # Mobile SDK for Xamarin®
 ## for Layer7 Mobile API Gateway
 
-The Mobile SDK for Xamarin gives developers simple and secure access to the services of CA Mobile API Gateway. For more information about our mobile SDKs see [developer website](http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-enterprise-software/layer7-api-management/mobile-sdk-for-ca-mobile-api-gateway/2-0.html).
+The Mobile SDK for Xamarin gives developers simple and secure access to the services of CA Mobile API Gateway. For more information about our mobile SDKs see [developer website](http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-enterprise-software/layer7-api-management/mobile-sdk-for-ca-mobile-api-gateway/2-1.html).
 
 ## Get Started
-Check out our [documentation](http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-enterprise-software/layer7-api-management/mobile-sdk-for-ca-mobile-api-gateway/2-0.html) for sample code and video tutorials.
+Check out our [documentation](http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-enterprise-software/layer7-api-management/mobile-sdk-for-ca-mobile-api-gateway/2-1.html) for sample code and video tutorials.
 
 ## Mobile SDK for Xamarin Frameworks
 The MAS SDK includes the following frameworks:
@@ -27,7 +27,7 @@ The compiled release binaries can be found here: [Releases][Releases]
 Contributions are welcome and much appreciated. To learn more, see the [Contribution Guidelines][contributing].
 
 ## License
-Copyright (c) 2018 CA. All rights reserved.
+Copyright (c) 2019 Broadcom. All Rights Reserved.
 
 This software may be modified and distributed under the terms
 of the MIT license. See the [LICENSE][license-link] file for details.
